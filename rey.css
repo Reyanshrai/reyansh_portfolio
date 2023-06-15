@@ -437,14 +437,30 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 475px) {
   .home {
-    row-gap: 2rem;
+    row-gap: 3rem;
+    
   }
   .home__img {
-    width: 200px;
+    width: 450px;
+    top: 0px;
+    margin-right: -20px;
+  }
+  .home__title{
+    margin-top: 450px;
+  }
+  .home__social{
+  flex-direction: row;
+  gap: 3rem;
+  margin-top:-350px;
+  margin-left: 100px;
+  }
+  .button{
+    margin-left: 200px;
   }
 }
+
 
 @media screen and (min-width: 576px) {
   .home {
